@@ -20,7 +20,7 @@ Taksimetre açılış ücreti 10 TL'dir.
 
         double gidilenMesafeUcreti=(kmp*gidilenYol);
         double odenecektutar=gidilenMesafeUcreti+taksimetreAcilis;
-        double odenecekToplamTutar=odenecektutar<=20?minTutar:odenecektutar;
+        double odenecekToplamTutar=(odenecektutar<=20)?minTutar:odenecektutar;
 
         System.out.println("Odenecek Toplam Tutar :"+odenecekToplamTutar+ " Tl dir.");
 
