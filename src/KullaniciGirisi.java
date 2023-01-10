@@ -13,9 +13,9 @@ public class KullaniciGirisi {
             System.out.println("Giriş başarılı");
         } else {
             System.out.print("Hatalı kullanıcı adı veya şifre."
-                                +"\nŞifrenizi sıfırlamak ister misiniz ? (evet veya hayır):");
+                    + "\nŞifrenizi sıfırlamak ister misiniz ? (evet veya hayır):");
 
-            String response= scn.nextLine();
+            String response = scn.nextLine();
             if (response.equalsIgnoreCase("evet")) {
                 System.out.print("Yeni şifreyi giriniz: ");
                 newPassword = scn.nextLine();
