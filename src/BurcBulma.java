@@ -32,12 +32,12 @@ public class BurcBulma {
     public static void main(String[] args) {
         int month, day;
         String burc = "";
-        Scanner input = new Scanner(System.in);
+        Scanner scanut = new Scanner(System.in);
         System.out.print("Doğduğunuz ay:");
-        month = input.nextInt();
+        month = scanut.nextInt();
 
         System.out.print("Doğduğunuz gün:");
-        day = input.nextInt();
+        day = scanut.nextInt();
 
         if (month == 1) {
             if ((day >= 1) && (day <= 31)) {
@@ -172,5 +172,4 @@ public class BurcBulma {
                 System.out.println("Hatalı gün girdiniz!");
         }
     }
-
 }

@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class OrtalamaHesaplama {
     public static Scanner gradepoint=new Scanner(System.in);
     public static void main(String[] args) {
-        isGrade(calcdersNotePuanToplam(inputPoint()));
+        isGrade(calcdersNotePuanToplam(scanutPoint()));
     }
 
     public static void isGrade(double dersNotePuanToplam) {
@@ -29,22 +29,22 @@ public class OrtalamaHesaplama {
         return dersNotePuanToplam;
 
     }
-    public static  int [] inputPoint() {
+    public static  int [] scanutPoint() {
         int mat = 0;
         int kim = 0;
         int tr = 0;
         int eng = 0;
 
-        Scanner noteInput = new Scanner(System.in);
+        Scanner notescanut = new Scanner(System.in);
         System.out.println("***Grade Point dersNotePuanToplam Calculator***");
         System.out.println("Your Math Grade :");
-        mat=noteInput.nextInt();
+        mat=notescanut.nextInt();
         System.out.println("Your Chemical Grade :");
-        kim=noteInput.nextInt();
+        kim=notescanut.nextInt();
         System.out.println("Your Turkish Grade :");
-        tr=noteInput.nextInt();
+        tr=notescanut.nextInt();
         System.out.println("Your Engilsh Grade :");
-        eng=noteInput.nextInt();
+        eng=notescanut.nextInt();
         int [] gradeNote={mat,kim,tr,eng};
         return gradeNote;
     }
