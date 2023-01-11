@@ -17,16 +17,16 @@ public class HesapMakinasi {
 
         switch(islemSecimi){
             case 1:
-                System.out.println("Sayilarin Carpim Sonucu :"+(sayi1 * sayi2));
+                System.out.println("SadogumYiliarin Carpim Sonucu :"+(sayi1 * sayi2));
                 break;
             case 2:
-                System.out.println("Sayilarin Bolum Sonucu :"+(sayi1 / sayi2));
+                System.out.println("SadogumYiliarin Bolum Sonucu :"+(sayi1 / sayi2));
                 break;
             case 3:
-                System.out.println("Sayilarin Toplam Sonucu :"+(sayi1 + sayi2));
+                System.out.println("SadogumYiliarin Toplam Sonucu :"+(sayi1 + sayi2));
                 break;
             case 4:
-                System.out.println("Sayilarin Cikarma Sonucu :"+(sayi1 - sayi2));
+                System.out.println("SadogumYiliarin Cikarma Sonucu :"+(sayi1 - sayi2));
                 break;
             default:
                 System.out.println("Hatali islem girisi yaptiniz,Tekrar deneyiniz.");

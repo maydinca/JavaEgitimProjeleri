@@ -45,7 +45,6 @@ public class UcakBiletiFiyatHesaplama {
             biletFiyati *=0.90;
         }else if(yas > 65){
             biletFiyati *=0.70;
-
         }
 
         if(seyahatTipi ==2){
