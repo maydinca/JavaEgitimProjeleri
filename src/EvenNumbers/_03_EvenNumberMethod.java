@@ -25,6 +25,7 @@ public class _03_EvenNumberMethod {
             }
         }
         ortalama = toplam / sayac;
-        System.out.println("3 ve 4 e tam bulunen sayilar : "+list+"\nbu sayilarin Ortalamasi = "+ortalama);
+        System.out.println("3 ve 4 e tam bulunen sayilar : "+list+"" +
+                           "\nbu sayilarin Ortalamasi = "+ortalama);
     }
 }
