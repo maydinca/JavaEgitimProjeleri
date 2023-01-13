@@ -1,22 +1,30 @@
 package EvenNumbers;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 public class _03_EvenNumberMethod {
+
+    /*
+    Java döngüler ile 0'dan girilen sayıya kadar olan sayılardan 3 ve 4'e tam bölünen sayıların
+     ortalamasını hesaplayan programı yazınız.
+     */
     public static void main(String[] args) {
-        int number, i,ortalama;
+        int girilenSayi, i,ortalama;
         int toplam = 0, sayac = 0;
-        Scanner scanner = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
         System.out.print("Lutfen bir tam sayi giriniz! ");
-        number = scanner.nextInt();
+        girilenSayi = scan.nextInt();
 
-        for (i = 1; i < number; i++) {
+        List<Integer> list = new ArrayList<>();
+        for (i = 0; i < girilenSayi; i++) {
             if ((i % 3 == 0) && (i % 4 == 0)) {
                 toplam += i;
                 sayac++;
-                System.out.println(i);
+                list.add(i);
             }
         }
         ortalama = toplam / sayac;
-        System.out.println("Ortalama: " + ortalama);
+        System.out.println("3 ve 4 e tam bulunen sayilar : "+list+"\nbu sayilarin Ortalamasi = "+ortalama);
     }
 }
