@@ -2,7 +2,7 @@ package EvenNumbers;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-public class _03_EvenNumberMethod {
+public class _03_EvenNumbersAverage {
 
     /*
     Java döngüler ile 0'dan girilen sayıya kadar olan sayılardan 3 ve 4'e tam bölünen sayıların
