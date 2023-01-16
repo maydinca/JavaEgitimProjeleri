@@ -14,13 +14,13 @@ public class DortveBesinKuvvetiniBulma {
         List<Integer> dordeBolunenSayilar = new ArrayList<>();
         List<Integer> beseBolunenSayilar = new ArrayList<>();
 
-        for (int i = 4; i <= n; i *= 4){
+        for (int i = 1; i <= n; i *= 4){
             dordeBolunenSayilar.add(i);
         }
         System.out.println(dordeBolunenSayilar);
 
         System.out.println("Girilen sayıya kadar 5' in kuvvetleri : ");
-        for(int j = 5; j <= n; j*=5){
+        for(int j = 1; j <= n; j*=5){
             beseBolunenSayilar.add(j);
         }
         System.out.println(beseBolunenSayilar);
