@@ -1,3 +1,5 @@
+package GirilenSayininRakamlariniBulma;
+
 import java.util.Scanner;
 
 public class SayiBasamagiBulma {
