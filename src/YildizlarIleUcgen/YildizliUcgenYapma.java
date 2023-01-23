@@ -24,7 +24,5 @@ public class YildizliUcgenYapma {
             }
             System.out.println(" ");
         }
-
-
     }
 }

@@ -14,10 +14,10 @@ import java.util.Scanner;
  */
 public class ElmasYapimi {
     public static void main(String[] args) {
-        Scanner klavye = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
         System.out.print("Bir Sayı Giriniz :");
-        int n = klavye.nextInt();
-        int tempn = n;
+        int n = scan.nextInt();
+        int space = n;
 
         for (int i = 0; i <= n; i++) {
             for (int j = 1; j <= (n - i); j++) {

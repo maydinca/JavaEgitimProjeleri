@@ -1,6 +1,6 @@
 package YildizlarIleUcgen;
 
-public class ElmasYapimi2 {
+public class PiramitYapimi2 {
     public static void main(String[] args) {
         int rows = 5, k = 0;
 
