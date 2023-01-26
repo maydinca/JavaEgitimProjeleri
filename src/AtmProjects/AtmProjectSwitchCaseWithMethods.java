@@ -77,7 +77,7 @@ public class AtmProjectSwitchCaseWithMethods {
                 login();
                 break;
             default:
-                System.out.println("Invalid Choose, Please Try Again...");
+                System.out.println("Invalid Choose, Please try again...");
         }
     }
     public static void processing() {
