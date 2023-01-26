@@ -29,7 +29,7 @@ public class AtmProjectSwitchCaseWithMethods {
         } else {
             System.out.println("Password attempts exceeded.Password incorrect " +
                     "\n Your account has been blocked, please call customer services. " +
-                    "\n Your transaction is closed");
+                    "\n Your transaction is cancelled");
             System.out.println("Good Bye");
         }
     }
