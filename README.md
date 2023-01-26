@@ -6,7 +6,7 @@
 
 ## OrtalamaHesaplama
 - Ortalaması 60 üstü olanlar geçer, diğerleri kalır.
-  
+
 ## KdvHesaplama
 - 1000 TL ye kadar %18 KDV
 - 1000 TL üstü gelirler %8 KDV :)
@@ -55,10 +55,10 @@
 ## Artık-Yıl-Bulma
 - Kullanıcının girdiği yılın artık yıl olup olmadığını bulan program.
 
-## Döngü-Kullanarak-Sayı-Ortalaması-Hesaplama 
+## Döngü-Kullanarak-Sayı-Ortalaması-Hesaplama
 - Java döngüleri ile 0'dan, girilen sayıya kadar olan sayılardan 3 ve 4'e tam bölünen sayıların ortalamasını hesaplayan program.
 
-## Döngü-Kullanarak-4'e-Bölünenenleri-Hesaplama 
+## Döngü-Kullanarak-4'e-Bölünenenleri-Hesaplama
 - Java döngüler ile tek bir sayı girilene kadar kullanıcıdan girişleri kabul eden ve girilen değerlerden çift ve 4'ün katları olan sayıları toplayıp ekrana basan program.
 
 ## Exponential-numbers
@@ -100,7 +100,12 @@
 ## Simple-Void/Return-Methods
 - Java metotlara giriş yapıldı.
 
-## Palindrome Numbers 
+## Palindrome Numbers
 - Is your number palindrome number?
 
+## Calculator
+- I created a new calculator with using java methods.
+
+## Recursive Methods
+- Program that performs exponential calculations using the recursive method. 
 
