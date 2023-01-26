@@ -45,6 +45,11 @@ public class AtmProjectSwitchCaseWithMethods {
         System.out.println("Enter the amount to withdraw:");
         int withdrawal = scanner.nextInt();
         balance -= withdrawal;
+        if (balance<0){
+            System.out.println("You don't have enough money to withdraw");
+            System.out.println("Do you want to continue?");
+            processing();
+        }
         System.out.println("New Balance= " + "$"+balance);
         processing();
     }public static void balanceCheck() {
