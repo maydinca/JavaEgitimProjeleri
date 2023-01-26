@@ -38,17 +38,17 @@ public class AtmProjectSwitchCaseWithMethods {
         System.out.println(str.toUpperCase());
         int deposit = scanner.nextInt();
         balance += deposit;
-        System.out.println("New Balance= " + balance);
+        System.out.println("New Balance= " + "$"+ balance);
         processing();
     }
     public static void withdrawal() {
         System.out.println("Enter the amount to withdraw:");
         int withdrawal = scanner.nextInt();
         balance -= withdrawal;
-        System.out.println("New Balance= " + balance);
+        System.out.println("New Balance= " + "$"+balance);
         processing();
     }public static void balanceCheck() {
-        System.out.println("Your Balance:" + balance);
+        System.out.println("Your Balance:" +"$"+ balance);
         processing();
     }
     public static void selectOptions() {
