@@ -58,12 +58,12 @@ public class _04_EbobEkok {
                 bigNumber /= i;
                 okek *= i;
             }
-            while (smallNumber % i ==	 0){
+            while (smallNumber % i == 0){
                 smallNumber /= i;
                 okek *= i;
             }
             i++;
         }
-        System.out.printf("OKEK : %d \n" , okek);
+        System.out.printf("OKEK : %d \n", okek);
     }
 }
