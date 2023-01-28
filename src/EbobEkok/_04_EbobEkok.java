@@ -3,10 +3,17 @@ package EbobEkok;
 import java.util.Scanner;
 
 public class _04_EbobEkok {
-    public static void main(String[] args) {
-        int bigNumber = 0,smallNumber = 0;
 
-        Scanner scn = new Scanner(System.in);
+    public static Scanner scn = new Scanner(System.in);
+    public static int bigNumber = 0;
+    public static int smallNumber = 0;
+    public static int obeb = 1;
+    public static int i = 2;
+
+    public static int okek = 1;
+
+
+    public static void main(String[] args) {
 
         System.out.print("Enter first digit: ");
         int firstNumber = scn.nextInt();
@@ -27,7 +34,7 @@ public class _04_EbobEkok {
     }
 
     static void calculateGcd(int bigNumber , int smallNumber) {
-        int obeb = 1, i = 2;
+
         while (i <= smallNumber) {
             while (smallNumber % i == 0 && bigNumber % i == 0){
                 smallNumber /= i;
@@ -40,7 +47,7 @@ public class _04_EbobEkok {
     }
 
     static void calculateLcm(int bigNumber , int smallNumber) {
-        int okek = 1,i = 2;
+
         while (i <= bigNumber){
             while (bigNumber % i == 0 && smallNumber % i == 0){
                 bigNumber /= i;
