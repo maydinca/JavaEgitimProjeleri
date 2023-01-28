@@ -14,10 +14,10 @@ public class _04_EbobEkok {
 
 
     public static void main(String[] args) {
-
-        System.out.print("Enter first digit: ");
+        System.out.println("Lets find OBEB& OKEK :) ");
+        System.out.print("Please enter first digit: ");
         int firstNumber = scn.nextInt();
-        System.out.print("Enter second digit : ");
+        System.out.print("Please enter second digit : ");
         int secondNumber = scn.nextInt();
 
         if (firstNumber > secondNumber) {
