@@ -9,15 +9,13 @@ public class _04_EbobEkok {
     public static int smallNumber = 0;
     public static int obeb = 1;
     public static int i = 2;
-
     public static int okek = 1;
 
-
     public static void main(String[] args) {
-        System.out.println("Lets find OBEB& OKEK :) ");
-        System.out.print("Please enter first digit: ");
+        System.out.println("Let's find OBEB && OKEK! :) ");
+        System.out.print("Please enter first number: ");
         int firstNumber = scn.nextInt();
-        System.out.print("Please enter second digit : ");
+        System.out.print("Please enter second number : ");
         int secondNumber = scn.nextInt();
 
         if (firstNumber > secondNumber) {
