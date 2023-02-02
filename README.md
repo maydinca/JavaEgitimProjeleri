@@ -2,7 +2,7 @@
 ![18](https://media1.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif)
 
 
-# Patika / Kodluyoruz - java101
+# Kodluyoruz - java101
 
 ## OrtalamaHesaplama
 - Ortalaması 60 üstü olanlar geçer, diğerleri kalır.
