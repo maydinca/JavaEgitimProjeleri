@@ -1,3 +1,5 @@
+package UcakBiletiFiyatHesaplama;
+
 import java.util.Scanner;
 
 public class UcakBiletiFiyatHesaplama {
