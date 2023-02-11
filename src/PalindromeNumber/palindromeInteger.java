@@ -1,4 +1,4 @@
-package PalindromNumber;
+package PalindromeNumber;
 
 /*
 Create a method which will return boolean

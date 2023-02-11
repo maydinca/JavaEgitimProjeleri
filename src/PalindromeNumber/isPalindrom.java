@@ -1,4 +1,4 @@
-package PalindromNumber;
+package PalindromeNumber;
 
 public class isPalindrom {
     static boolean isPalindrom(int number) {
