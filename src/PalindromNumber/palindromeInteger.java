@@ -1,5 +1,4 @@
 package PalindromNumber;
-import javax.crypto.spec.PSource;
 
 /*
 Create a method which will return boolean
