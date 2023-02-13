@@ -19,15 +19,15 @@ public class Calculator_02_operation {
         num2 = input.nextDouble();
 
         if (operation.equals("+")) {
-            System.out.println(num1 + num2);
+            System.out.println("Islem Sonucu : " + (num1 + num2));
         } else if (operation.equals("-")) {
-            System.out.println(num1 - num2);
+            System.out.println("Islem Sonucu : " + (num1 - num2));
         } else if (operation.equals("*")) {
-            System.out.println(num1 * num2);
+            System.out.println("Islem Sonucu : " + (num1 * num2));
         } else if (operation.equals("/")) {
-            System.out.println(num1 / num2);
+            System.out.println("Islem Sonucu : " + (num1 / num2));
         } else {
-            System.out.println("Geçersiz işlem.");
+            System.out.println("Islem Sonucu : " + "Geçersiz işlem.");
         }
     }
 }
