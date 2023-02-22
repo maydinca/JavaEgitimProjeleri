@@ -15,7 +15,15 @@ public class Main {
 
         Car mercedes = new Car("Corporate" , "Mercedes" , "black");
         mercedes.speed = 20;
-        mercedes.printInfo();
+
+        System.out.println("+++++++++++++++++++++++++++++");
+
+        Car toyota =new Car("Hatchbag","CHR","White");
+        toyota.increaseSpeed(50);
+        toyota.decreaseSpeed(10);
+        toyota.printSpeed();
+        System.out.println("**********");
+        toyota.printInfo();
 
     }
 }

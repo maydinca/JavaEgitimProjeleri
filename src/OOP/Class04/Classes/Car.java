@@ -34,10 +34,10 @@ public class Car {
 
     void printInfo() {
         System.out.println("================");
-        System.out.println("Model  : " + this.model);
-        System.out.println("Color  : " + this.color);
-        System.out.println("Type  : " + this.type);
-        System.out.println("Speed  : " + this.speed);
+        System.out.println("Model \t: " + this.model);
+        System.out.println("Color \t: " + this.color);
+        System.out.println("Type  \t: " + this.type);
+        System.out.println("Speed \t: " + this.speed);
     }
     // ...
 }
