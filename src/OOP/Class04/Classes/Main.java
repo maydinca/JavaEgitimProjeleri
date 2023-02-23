@@ -14,16 +14,24 @@ public class Main {
         bmw.printInfo();
 
         Car mercedes = new Car("Corporate" , "Mercedes" , "black");
-        mercedes.speed = 20;
+        //mercedes.speed = 20;
+        System.out.println("mercedes = " + mercedes);
+        mercedes.printInfo();
 
         System.out.println("+++++++++++++++++++++++++++++");
 
         Car toyota =new Car("Hatchbag","CHR","White");
         toyota.increaseSpeed(50);
         toyota.decreaseSpeed(10);
-        toyota.printSpeed();
-        System.out.println("**********");
+        //toyota.printSpeed();
         toyota.printInfo();
+        System.out.println("+++++++++++++");
+
+        Car renault =new Car("Hatchbag","Clio","White");
+        renault.increaseSpeed(50);
+        renault.decreaseSpeed(10);
+        //renault.printSpeed();
+        renault.printInfo();
 
     }
 }
