@@ -26,7 +26,6 @@ public class Main {
         //toyota.printSpeed();
         toyota.printInfo();
         System.out.println("+++++++++++++");
-        System.out.println(" ================= ");
 
         Car renault =new Car("Hatchbag","Clio","White");
         renault.increaseSpeed(50);
