@@ -32,6 +32,7 @@ public class Main {
         renault.decreaseSpeed(10);
         //renault.printSpeed();
         renault.printInfo();
+
         System.out.println("\n+++++++++++++");
 
     }
